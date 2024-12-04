@@ -54,13 +54,6 @@ FIXES
 
 4.1.1 - 08/19/2015
 ------------------
-SECURITY FIXES
-* There was a fix to vulnerability CVE-2008-4796 in the 4.2.0 release on
-  August 1, 2016. The fix was apparently incomplete, as there was still a
-  problem. However, we are now getting all RSS feeds using AJAX calls
-  instead of the (outdated) MagpieRSS package. Thanks for bringing this to
-  our attention go to Dawid Golunski (http://legalhackers.com).
-
 FIXES
 * CGI Could not read object configuration data (broken by error in 4.1.0)
 * exclude (!) not working (broken by mis-applied fix for 4.1.0)
